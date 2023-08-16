@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+.child-container {
+    font-family: Poppins;
+    margin-top: 40px;
+    padding: 40px 80px;
+    /* flex-wrap: wrap; */
+    /* Reverse flex direction for smaller screens */
+    padding-right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top right, rgba(9, 180, 80, 0.1), #FFFFFF);
+    position: relative;
+    z-index: 1;
+    border-radius: 50px;
+}
+
+.title {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.education-wording {
+    color: #09B451;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.get-started-btn {
+    padding: 20px 42px;
+    border-radius: 5px;
+    background: #09B451;
+    border: none;
+    color: #fff;
+    margin-top: 48px;
+    transition: background-color 0.3s ease;
+}
+
+.get-started-btn:hover{
+    background-color: black;
+}
+
+.design-end {
+    width: 107px;
+    height: 585px;
+    background: #E4FFFF;
+    position: absolute;
+    right: -40px;
+    bottom: -40px;
+    z-index: -1;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.instructors-wording {
+    color: #09B451;
+}
+
+.girl-img {
+    padding-left: 80px;
+}
+
+.section-two {
+    position: relative;
+}
+
+.msg-two {
+    position: absolute;
+    bottom: 150px;
+    font-weight: 500;
+    text-align: center;
+    padding: 17.677px 23.649px 12.095px 24.208px;
+    border-radius: 14px 14px 30px 14px;
+    background: #FFF;
+    box-shadow: 0px 0px 69.23333740234375px 0px rgba(112, 112, 112, 0.25);
+}
+
+.face:not(:first-child) {
+    margin-left: -20px;
+    width: 50px;
+}
+
+.msg-three {
+    position: absolute;
+    right: -15px;
+    bottom: 80px;
+    text-align: center;
+    background-color: #FFF;
+    border-radius: 6.887px 6.887px 17.217px 6.887px;
+    box-shadow: 0px 0px 42.69811248779297px 0px rgba(112, 112, 112, 0.25);
+    padding: 7px 7px 17px 7px;
+}
+
+.k-wording {
+    font-size: 24px;
+    font-weight: 600;
+    color: #09B451;
+    margin-bottom: 0;
+}
+
+.msg-three-text {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.activities {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.activity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #DFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.activity img {
+    width: 40px;
+    padding-right: 10px;
+}
+
+.activity-text {
+    font-size: 16px;
+}
+
+
+@media(max-width: 992px) {
+
+    .title {
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .get-started-btn {
+        padding: 10px 22px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    .girl-img {
+        width: 300px;
+    }
+
+    .msg-two {
+        position: absolute;
+        bottom: 50px;
+        font-weight: 500;
+        font-size: 10px;
+        text-align: center;
+        padding: 17.677px 23.649px 12.095px 24.208px;
+        border-radius: 14px 14px 30px 14px;
+        background: #FFF;
+        box-shadow: 0px 0px 69.23333740234375px 0px rgba(112, 112, 112, 0.25);
+        max-width: 200px;
+    }
+
+    .msg-two img {
+        width: 10px;
+    }
+
+    .msg-three {
+        right: -15px;
+        bottom: -15px;
+        padding: 7px 7px 17px 7px;
+    }
+
+    .msg-three-text {
+        font-size: 10px;
+    }
+
+    .k-wording {
+        font-size: 10px;
+    }
+
+    .design-end {
+        width: 80px;
+        height: 550px;
+        background: #E4FFFF;
+        position: absolute;
+        right: -158px;
+        bottom: -40px;
+        z-index: -1;
+        border-bottom-right-radius: 50px;
+        border-top-right-radius: 50px;
+    }
+
+    .child-container {
+        flex-direction: column;
+    }
+
+    .section-two {
+        order: 2;
+        /* Move section-two below section-one */
+    }
+
+    .activities {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .activity {
+        width: 45%;
+        box-sizing: border-box;
+    }
+
+    .activity-text {
+        font-size: 12px;
+    }
+
+}
+
+@media(max-width: 768px) {
+    .design-end {
+        width: 80px;
+        height: 550px;
+        right: -50px;
+        bottom: -40px;
+    }
+}

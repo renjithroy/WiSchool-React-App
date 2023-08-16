@@ -1,0 +1,63 @@
+.navbar{
+    background-color: transparent;
+    font-size: 16px;
+}
+
+.link:not(:last-child){
+    letter-spacing: -0.32px;
+    color: var(--gray-3, rgba(64, 64, 64, 0.80));
+    padding-right: 24px !important;
+}
+
+.link-login{
+    color: #09B451 !important;
+}
+
+.link-register{
+    color: #fff;
+    background-color: #09B451;
+    border-radius: 5px;
+    width: 106px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.link-register:hover{
+    background-color: black;
+    color: #fff;
+}
+
+.user-icon{
+    display: none;
+}
+
+.search-icon{
+    cursor: pointer;
+}
+
+.user-icon:hover{
+    cursor: pointer;
+}
+
+.hamburger-icon {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.hamburger-lines {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: #333;
+}
+
+@media(max-width: 576px){
+    .user-icon {
+        display: inline;
+        margin-left: 100px;
+    }
+}
