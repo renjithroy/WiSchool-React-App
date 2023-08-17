@@ -35,6 +35,11 @@
     margin: 0 10px;
 }
 
+.item:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+
 .item img {
     border-radius: 5px;
     max-width: 100%;
