@@ -1,0 +1,195 @@
+.skill-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-sort {
+    color: #fff;
+    background-color: #09B451;
+    padding: 5px 20px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-sort:hover {
+    cursor: pointer;
+    background-color: #09b450ea;
+}
+
+.skill-main-text {
+    color: var(--gray-1, #333);
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.box-shadow-item {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.skill-title {
+    font-size: 1.4rem;
+    color: var(--gray-1, #333);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.flex-groups {
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skill-price {
+    color: #09B451;
+    font-size: 1.5rem;
+}
+
+.skill-img {
+    position: relative;
+}
+
+.skill-hover-one,
+.skill-hover-two {
+    background-color: #FFFFFF;
+    color: #09B451;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.skill-hover-one {
+    position: absolute;
+    top: 30%;
+    left: 10px;
+}
+
+.skill-hover-two {
+    position: absolute;
+    top: 30%;
+    right: 10px;
+}
+
+.skill-hover-one:hover,
+.skill-hover-two:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+.card-item {
+    cursor: pointer;
+}
+
+.card-item:hover{
+    opacity: 0.9;
+}
+
+@media (max-width: 994px) {
+
+    .skill-hover-one {
+        position: absolute;
+        top: 10%;
+        left: 10px;
+    }
+
+    .skill-hover-two {
+        position: absolute;
+        top: 10%;
+        right: 10px;
+    }
+
+    .skill-title {
+        font-size: 1rem;
+    }
+
+    .skill-duration,
+    .skill-enrolled {
+        font-size: 0.8rem;
+    }
+
+    .skill-price {
+        font-size: 1rem;
+    }
+
+    .skill-main-text {
+        font-size: 1rem;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+
+    .skill-hover-one,
+    .skill-hover-two {
+        width: 20px;
+        height: 20px;
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    .skill-hover-one {
+        position: absolute;
+        top: 10%;
+        left: 10px;
+    }
+
+    .skill-hover-two {
+        position: absolute;
+        top: 10%;
+        right: 10px;
+    }
+
+
+    .skill-title {
+        font-size: 14px;
+    }
+
+    .flex-groups {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-groups span {
+        padding-bottom: 10px;
+    }
+
+    .skill-sort {
+        padding: 5px 15px;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .skill-card-group {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-item {
+        max-width: 70%;
+    }
+
+    .skill-sort {
+        padding: 5px 15px;
+        font-size: 0.8rem;
+    }
+
+    .skill-hover-one,
+    .skill-hover-two {
+        display: none;
+    }
+}

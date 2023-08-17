@@ -4,6 +4,7 @@ import './App.css'
 import Navbar from './components/navbar/Navbar'
 import Main from "./components/main/Main";
 import Category from "./components/category/Category";
+import Skills from "./components/skills/Skills"
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
             <Navbar/>
             <Main/>
             <Category/>
+            <Skills/>
         </div>
     )
 }

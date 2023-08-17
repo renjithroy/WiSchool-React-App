@@ -21,6 +21,7 @@
     font-weight: 400;
     line-height: normal;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 
 .category-content {
