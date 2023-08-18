@@ -5,6 +5,7 @@ import Navbar from './components/navbar/Navbar'
 import Main from "./components/main/Main";
 import Category from "./components/category/Category";
 import Skills from "./components/skills/Skills"
+import Form from "./components/register-form/Form";
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
             <Main/>
             <Category/>
             <Skills/>
+            <Form/>
         </div>
     )
 }
