@@ -107,4 +107,8 @@
     .in-form-title{
         font-size: 1.1rem;
     }
+
+    .form-btn{
+        padding: 8px 50px;
+    }
 }
