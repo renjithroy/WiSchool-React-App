@@ -216,3 +216,14 @@
     }
 
 }
+
+@media (max-width: 490px) {
+
+    .profile{
+        padding: 10px;
+    }
+
+    .profile-role{
+        font-size: 12px;
+    }
+}
