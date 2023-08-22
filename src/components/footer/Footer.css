@@ -55,8 +55,11 @@ h2 {
     margin-bottom: 10px;
 }
 
-.column1 h2,
-p {
+.column1 h2{
+    padding-bottom: 20px;
+}
+
+.column1 p {
     padding-bottom: 20px;
 }
 
@@ -88,6 +91,7 @@ p {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    padding-bottom: 20px;
 }
 
 .subscription-form {
