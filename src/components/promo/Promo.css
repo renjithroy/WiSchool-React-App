@@ -144,7 +144,7 @@
     .promo-overlay-wave {
         display: none;
     }
-    
+
     .promo-overlay-flame {
         padding-top: 500px;
     }
@@ -186,5 +186,12 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+}
+
+@media (max-width: 430px) {
+    .promo-buttons button {
+        margin-right: 5px;
+        padding: 8px 20px;
     }
 }
