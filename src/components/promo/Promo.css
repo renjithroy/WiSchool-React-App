@@ -1,0 +1,190 @@
+.promo-container {
+    position: relative;
+}
+
+.promo-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: 1;
+    padding: 20px;
+}
+
+.promo-background {
+    background: url('../../assets/bg-img.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+}
+
+.promo-overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.promo-column-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.promo-overlay-flame,
+.promo-overlay-wave {
+    position: absolute;
+    top: 0;
+    width: 50%;
+    /* Both divs take half of the screen width */
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+}
+
+.promo-overlay-flame {
+    left: 0;
+    background-image: url('../../assets/flameOne.png');
+}
+
+.promo-overlay-wave {
+    right: 0;
+    background-image: url('../../assets/flameTwo.png');
+}
+
+/* Styles for the two-column layout */
+.promo-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.promo-column {
+    flex: 1;
+    padding: 20px;
+}
+
+.promo-column img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    width: 400px;
+    border-radius: 20px;
+    position: absolute;
+    top: -25px;
+}
+
+.promo-buttons button {
+    margin-right: 30px;
+    padding: 15px 45px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.promo-buttons button:first-child {
+    background: #09B451;
+    color: #FFF;
+}
+
+.promo-buttons button:nth-child(2) {
+    background-color: #FFF;
+    color: #09B451;
+}
+
+.promo-buttons button:last-child {
+    margin-right: 0;
+}
+
+.promo-column h1 {
+    text-transform: capitalize;
+    font-family: Open Sans;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 20px;
+}
+
+.promo-column p {
+    text-transform: capitalize;
+    color: #FFF;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 30px;
+    font-style: italic;
+}
+
+@media (max-width: 1100px) {
+    .promo-column img {
+        max-width: 40%;
+    }
+}
+
+@media (max-width: 910px) {
+
+    .promo-buttons button {
+        margin-right: 10px;
+        padding: 10px 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .promo-overlay-wave {
+        display: none;
+    }
+    
+    .promo-overlay-flame {
+        padding-top: 500px;
+    }
+
+    .promo-column img {
+        display: none;
+    }
+
+    .promo-overlay-flame {
+        width: 100%;
+    }
+
+    .promo-background {
+        background-size: cover;
+        background-position: right;
+    }
+
+    /* Adjust the column layout for mobile */
+    .promo-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .promo-column {
+        margin-bottom: 20px;
+    }
+
+    .promo-buttons button {
+        margin-right: 25px;
+        padding: 10px 35px;
+    }
+
+    .promo-column-one {
+        display: none;
+    }
+
+    .promo-column-two {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
