@@ -35,7 +35,7 @@ function Main() {
                         <p className='msg-three-text'>Amazing<br />students around<br />the globe</p>
                     </div>
                     <img src={girlWithBooks} className='girl-img' />
-                    {/* <div className='design-end'></div> */}
+                    <div className='design-end'></div>
                 </div>
             </div>
 

@@ -220,10 +220,15 @@
 @media (max-width: 490px) {
 
     .profile{
-        padding: 10px;
+        padding: 8px;
+    }
+
+    .profile-name{
+        font-size: 12px;
     }
 
     .profile-role{
-        font-size: 12px;
+        font-size: 10px;
     }
+
 }

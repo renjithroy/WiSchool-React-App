@@ -219,9 +219,6 @@
 
 @media(max-width: 768px) {
     .design-end {
-        width: 80px;
-        height: 550px;
-        right: -50px;
-        bottom: -40px;
+        display: none;
     }
 }
