@@ -6,7 +6,7 @@ import menTwo from '../../assets/men-two.png';
 
 const Review = () => {
     return (
-            <Container fluid className='mb-5'>
+            <Container fluid className='mb-5 pb-5'>
                 <div className="review-title">
                     Reviews
                 </div>

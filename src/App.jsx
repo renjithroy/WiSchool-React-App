@@ -8,6 +8,7 @@ import Skills from "./components/skills/Skills"
 import Form from "./components/register-form/Form";
 import Review from "./components/reviews/Review";
 import Promo from "./components/promo/Promo";
+import Footer from "./components/footer/Footer"
 
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
             <Form/>
             <Review/>
             <Promo/>
+            <Footer/>
         </div>
     )
 }

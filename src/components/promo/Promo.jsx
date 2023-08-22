@@ -3,7 +3,7 @@ import hackerGirl from '../../assets/hacker-girl.png'
 
 const Promo = () => {
     return (
-        <div className="promo-container">
+        <div className="promo-container mt-5">
             <div className="promo-background">
                 <div className="promo-overlay">
                     <div className="promo-overlay-flame"></div>
@@ -16,7 +16,7 @@ const Promo = () => {
                 </div>
                 <div className="promo-column promo-column-two">
                     <h1>You don’t have to see the whole staircase just take the first step</h1>
-                    <p>“The secret of getting ahead is getting started.” —Mark Twain</p>
+                    <p>“The secret of getting ahead is getting started.” <br /> — Mark Twain</p>
                     <div className="promo-buttons">
                         <button>Get Started</button>
                         <button>Place a Call</button>
